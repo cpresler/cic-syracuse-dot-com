@@ -7,11 +7,22 @@
 	<title>Syracuse.com</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
 	<header>
 		<div class="container">
-			Header stuff goes here.
+			<div class="header-row">
+				<div id="menu" class="header-icon"><i class="fas fa-bars"></i></div>
+				<div>Syracuse.com Logo</div>
+				<div id="search-icon" class="header-icon"><i class="fas fa-search"></i></div>
+			</div>
+			<div class="search-bar">
+				<form action="" id="search">
+					<input type="text" placeholder="Search the latest news">
+					<button type="submit">Search</button>
+				</form>
+			</div>
 		</div>
 	</header>
 	<main>
@@ -29,7 +40,7 @@
 						<article class="tertiary">2</article>
 						<article class="tertiary">3</article>
 						<article class="tertiary">4</article>
-					</div>
+					</div> <!-- /showcase-right-->
 				</div><!-- /row-->
 			</div><!-- /container -->
 		</section>
@@ -42,5 +53,6 @@
 			Footer stuff goes here.
 		</div>
 	</footer>
+	<script src="js/main.js"></script>
 </body>
 </html>
